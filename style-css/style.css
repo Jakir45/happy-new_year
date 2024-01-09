@@ -146,6 +146,63 @@ section {
     margin: 48px 0 0 570px;
 }
 
+/* comming soon */
+
+.comming-soon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-colom-1 {
+    width: 35%;
+}
+
+.com-colom-1 h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.com-colom-1 h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 16px 0 22px 0;
+}
+
+.com-colom-1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.circle {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.com-colom-3 {
+    width: 25%;
+}
+
+.com-colom-3 h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.com-colom-3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 16px 0 43px 0;
+}
+
+
+/* protfolio */
 .protfolio h3 {
     color: #F00;
     font-size: 24px;
@@ -204,6 +261,7 @@ section {
     height: 72px;
     background: #FFF;
     border: none;
+    outline: none;
     color: rgba(7, 2, 17, 0.30);
     font-size: 18px;
     font-weight: 400;
